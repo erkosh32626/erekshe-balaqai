@@ -61,7 +61,7 @@ export default function LoginPage() {
             >
               <Sparkles className="w-10 h-10 text-primary-foreground" />
             </motion.div>
-            <CardTitle className="text-2xl font-bold text-foreground">Erekshe Balaqai</CardTitle>
+            <CardTitle className="text-2xl font-bold text-foreground">Dem</CardTitle>
             <CardDescription className="text-muted-foreground">
               Аккаунтыңызға кіріңіз
             </CardDescription>

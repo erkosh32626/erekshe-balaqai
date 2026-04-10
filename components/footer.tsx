@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { Phone, Mail, MapPin, Instagram, Youtube, Send, MessageCircle } from "lucide-react"
+import { Logo } from "@/components/logo"
 
 export function Footer() {
   return (
@@ -11,11 +12,9 @@ export function Footer() {
           {/* Logo and description */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center">
-                <span className="text-xl font-bold text-primary-foreground">EB</span>
-              </div>
+              <Logo />
               <div>
-                <h3 className="font-bold text-lg text-foreground">Erekshe Balaqai</h3>
+                <h3 className="font-bold text-lg text-foreground">Dem</h3>
                 <p className="text-xs text-muted-foreground">Логопедиялық платформа</p>
               </div>
             </div>
@@ -55,17 +54,17 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Байланыс</h4>
             <ul className="space-y-3">
-              <li className="flex items-center gap-3 text-sm text-muted-foreground">
+                  <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+7 (707) 123-45-67</span>
+                <span>+7 778 227 1826</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>info@erekshebalaqai.kz</span>
+                <span>erekshebalaqai@gmail.com</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>Алматы қаласы, Қазақстан</span>
+                <span> қаласы, Қазақстан</span>
               </li>
             </ul>
           </div>
@@ -113,7 +112,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Erekshe Balaqai. Барлық құқықтар қорғалған.
+            &copy; {new Date().getFullYear()} Dem. Барлық құқықтар қорғалған.
           </p>
         </div>
       </div>

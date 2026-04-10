@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Erekshe Balaqai - Логопедиялық платформа',
-  description: 'Балалардың сөйлеу дамуын қолдайтын қазақ тіліндегі интерактивті логопедиялық платформа',
+  title: 'Dem — баланы демеу платформасы',
+  description: 'Баланың сөйлеу дамуын қолдауға арналған қазақ тіліндегі интерактивті платформа',
   generator: 'v0.app',
   icons: {
     icon: [

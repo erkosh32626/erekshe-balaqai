@@ -23,6 +23,7 @@ import {
 import { useTheme } from "./theme-provider"
 import { useState, useEffect } from "react"
 import { cn } from "@/lib/utils"
+import { Logo } from "@/components/logo"
 import { createClient } from "@/lib/supabase/client"
 import type { User as SupabaseUser } from "@supabase/supabase-js"
 
@@ -117,15 +118,13 @@ export function AppSidebar() {
           isCollapsed ? "lg:p-3" : ""
         )}>
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center flex-shrink-0">
-              <span className="text-xl font-bold text-primary-foreground">EB</span>
-            </div>
+            <Logo />
             <div className={cn(
               "transition-all duration-300 overflow-hidden",
               isCollapsed ? "lg:w-0 lg:opacity-0" : "lg:w-auto lg:opacity-100",
               "w-auto opacity-100"
             )}>
-              <h1 className="font-bold text-lg text-sidebar-foreground whitespace-nowrap">Erekshe Balaqai</h1>
+              <h1 className="font-bold text-lg text-sidebar-foreground whitespace-nowrap">Dem</h1>
               <p className="text-xs text-sidebar-foreground/60 whitespace-nowrap">Логопедиялық платформа</p>
             </div>
           </Link>
