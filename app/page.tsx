@@ -170,29 +170,29 @@ export default function HomePage() {
 
               {/* Info */}
               <div className="flex-1 text-center lg:text-left">
-                <h3 className="text-2xl font-bold mb-2 text-foreground">Айгүл Сәрсенбаева</h3>
-                <p className="text-primary font-medium mb-4">Жоғары санатты логопед-дефектолог</p>
+                <h3 className="text-2xl font-bold mb-2 text-foreground">Шәрі Әлия Болатбекқызы</h3>
+                <p className="text-primary font-medium mb-4">Логопед</p>
                 
                 <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-4">
-                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">15+ жыл тәжірибе</span>
-                  <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary-foreground text-sm">500+ бала</span>
-                  <span className="px-3 py-1 rounded-full bg-accent/20 text-accent-foreground text-sm">Халықаралық сертификат</span>
+                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">4+ жыл тәжірибе</span>
+                  <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary-foreground text-sm">10+ бала</span>
+                  <span className="px-3 py-1 rounded-full bg-accent/20 text-accent-foreground text-sm">М. Мәметова атындағы колледж</span>
                 </div>
 
                 <p className="text-muted-foreground mb-4">
-                  Айгүл Сәрсенбаева - Қазақстанның танымал логопед-дефектологтарының бірі. 
-                  Абай атындағы ҚазҰПУ-дің түлегі, «Арнайы педагогика» мамандығы бойынша магистр дәрежесін иеленген. 
-                  2009 жылдан бері балалардың сөйлеу бұзылыстарын түзетумен айналысады.
+                  Шәрі Әлия Болатбекқызы М. Мәметова атындағы Қызылорда педагогикалық жоғары колледжінің түлегі. 
+                  Логопед мамандығы әр балалардың сөйлеу дамуына көмектесуге дайын.
+                  Диагностика жүргізу, жеке бағдарламалар құру және отбасылармен жұмыс істеу менің негізгі қызметтерімнің бірі.
                 </p>
 
                 <div className="space-y-2 text-sm text-muted-foreground">
                   <p className="flex items-center gap-2 justify-center lg:justify-start">
                     <Heart className="w-4 h-4 text-red-500" />
-                    Мамандану: Дислалия, дизартрия, алалия, дислексия, кекештік
+                    Мамандану: Артикуляциялық бұзылыстар, сөйлеу дамуының кешігуі
                   </p>
                   <p className="flex items-center gap-2 justify-center lg:justify-start">
                     <Star className="w-4 h-4 text-yellow-500" />
-                    Жетістіктері: «Жыл логопеді - 2021» байқауының жеңімпазы
+                    Жетістіктері: Кәсіби конференцияларға қатысу, мақалалар жариялау
                   </p>
                 </div>
 
@@ -200,8 +200,7 @@ export default function HomePage() {
                 <div className="mt-6 p-4 rounded-2xl bg-muted/50 relative">
                   <Quote className="w-8 h-8 text-primary/20 absolute top-2 left-2" />
                   <p className="text-foreground italic pl-8">
-                    &quot;Әр бала - ерекше. Менің мақсатым - әр баланың өз дауысын табуына көмектесу. 
-                    Дұрыс көзқарас пен сабырлықпен кез келген қиындықты жеңуге болады.&quot;
+                    &quot;Әр баланың өз қарқыны мен ерекшелігі бар. Менің міндетім - сол ерекшелікті ескере отырып, оның еркін қарым-қатынас жасауына көмектесу. Біз кәсіби көмек пен ата-ана махаббатын ұштастыра отырып, балаңыздың сөйлеу әлемін бірге қалыптастырамыз.&quot;
                   </p>
                 </div>
               </div>

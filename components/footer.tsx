@@ -64,7 +64,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span> қаласы, Қазақстан</span>
+                <span> Қызылорда қаласы, Қазақстан</span>
               </li>
             </ul>
           </div>
